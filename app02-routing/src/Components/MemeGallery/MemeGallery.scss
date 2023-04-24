@@ -1,0 +1,29 @@
+.gallery {
+    margin-left: 140px;
+    
+
+    &__panel {
+        border: solid;
+        border-color: orange;
+        margin-bottom: 5px;
+    }
+
+    &__content {
+        position: relative;
+    }
+
+    &__text {
+        position: absolute;
+        color: blueviolet;
+        font-size: 32px;
+    }
+
+    &__boton {
+        display: flex;
+        justify-content: center;
+
+        button {
+            background-color: orange;
+        }
+    }
+}

@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header_nav {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.nav_link {
+  text-decoration: none;
+  background-color: orange;
+  width: 100px;
+  border-radius: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+//QUOTES SIMPSONS
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card {
+  background-color: rgb(204, 204, 204);
+  width: 200px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.card_div_img {
+  text-align: center;
+}
+
+.card_img {
+  max-height: 150px;
+}
+
+// MEMES
+@import "~bootstrap/scss/bootstrap-grid";
+
+.container {
+  margin: 0px;
+}
+
+.meme_img {
+  width: 100%;
+}
+
+.meme_form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: orange;
+  border-radius: 20px;
+
+  input {
+    width: 100px;
+  }
+}
+
+.meme_page {
+  display: flex;
+  flex-direction: row;
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    position: fixed;
+  }
+}
